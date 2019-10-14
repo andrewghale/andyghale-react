@@ -2,9 +2,9 @@ import github from 'assets/img/github.svg';
 import instagram from 'assets/img/instagram.svg';
 import linkedin from 'assets/img/linkedin.svg';
 
-import githubWhite from 'assets/img/github.svg';
-import instagramWhite from 'assets/img/instagram.svg';
-import linkedinWhite from 'assets/img/linkedin.svg';
+import githubWhite from 'assets/img/github-white.svg';
+import instagramWhite from 'assets/img/instagram-white.svg';
+import linkedinWhite from 'assets/img/linkedin-white.svg';
 
 export const socialLinks = [
     { name: 'github', img: github, src: 'https://github.com/andrewghale', className: 'git' },

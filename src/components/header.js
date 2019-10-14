@@ -1,13 +1,14 @@
 import React from 'react';
 import Nav from 'components/nav';
 import logo from 'assets/img/logo.svg';
+import logoLight from 'assets/img/logo-light.svg';
 
-const Header = () => (
+const Header = ({ lightLogo }) => (
     <header className="site-header">
-    <div className="logo-holder">
-        <img className="home-logo" src={logo} alt="logo"/>
-    </div>
-    <Nav />
+        <div className="logo-holder">
+            <img className="home-logo" src={lightLogo === true ? logoLight : logo} alt="logo"/>
+        </div>
+        <Nav />
     </header>
 )
 
