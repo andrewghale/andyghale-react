@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 const Nav = () => (
     <nav className="main-nav">
@@ -7,6 +7,6 @@ const Nav = () => (
         <NavLink activeClassName='no-link' className="tag" to="/about">About</NavLink>
         <NavLink activeClassName='no-link' className="tag" to="/contact">Contact</NavLink>
     </nav>
-)
+);
 
 export default Nav;
