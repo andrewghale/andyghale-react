@@ -18,7 +18,6 @@ const About = ({ match }) => {
                       <p className="text">
                             I`&apos;m also a professional BMX rider. I have performed for films, schools, events and even on a cruise ship;
                             see my Instagram for a taste of what I do!
-
                       </p>
                   </div>
               </div>
